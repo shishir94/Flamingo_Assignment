@@ -22,6 +22,7 @@ class MyHashMap {
         }
     };
 
+    
 int main()
 {
     MyHashMap obj;
