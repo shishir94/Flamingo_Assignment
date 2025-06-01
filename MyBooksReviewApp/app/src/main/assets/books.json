@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "thumbnailUrl": "placeholder",
+    "description": "A collection of twelve short stories featuring Sherlock Holmes.",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "thumbnailUrl": "placeholder",
+    "description": "A classic novel about manners, marriage, and morality in early 19th-century England.",
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "thumbnailUrl": "placeholder",
+    "description": "A novel about the serious issues of rape and racial inequality, told through a child's eyes.",
+    "rating": 4.9
+  },
+  {
+    "id": 4,
+    "title": "1984",
+    "author": "George Orwell",
+    "thumbnailUrl": "placeholder",
+    "description": "A dystopian social science fiction novel and cautionary tale about totalitarianism.",
+    "rating": 4.7
+  }
+]

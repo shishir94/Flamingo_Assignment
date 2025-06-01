@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BookReviewApp</string>
+    <string name="all_books">All Books</string>
+    <string name="my_favorites">My Favorites</string>
+    <string name="favorite">Favorite</string>
+    <string name="unfavorite">Unfavorite</string>
+    <string name="rating_prefix">Rating: </string>
+</resources>
