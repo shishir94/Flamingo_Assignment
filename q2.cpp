@@ -2,31 +2,28 @@
 using namespace std;
 
 
-vector<int>dp;
-class MyHashMap
-{
-public:
-    MyHashMap()
-    {
-    }
-    void put(int key, int value)
-    {
-        dp[key] = value;
-    }
-    int get(int key)
-    {
-        return dp[key];
-    }
-    void remove(int key)
-    {
-
-        dp[key] = -1;
-    }
-};
+class MyHashMap {
+    public:
+        int data[1000001];
+        MyHashMap() {
+            fill(data, data + 1000000, -1);
+        }
+        
+        void put(int key, int value) {
+            data[key] = value;
+        }
+        
+        int get(int key) {
+            return data[key];
+        }
+        
+        void remove(int key) {
+            data[key]=-1;
+        }
+    };
 
 int main()
 {
-    dp.resize(1e6+1,-1);
     MyHashMap obj;
     obj.put(1, 10);
     obj.put(2, 20);
